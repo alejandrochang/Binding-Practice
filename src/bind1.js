@@ -6,6 +6,7 @@ class Bind1 extends Component {
     this.state = {message: 'Hello from Bind 1!'}
   }
 
+  // arrow function
   getMessage = () => {
     console.log(this.state.message);
   }

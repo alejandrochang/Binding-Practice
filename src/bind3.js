@@ -6,9 +6,10 @@ class Bind3 extends Component {
     this.state = { message: 'Hello from Bind 3!' }
 
     this.getMessage = this.getMessage.bind(this);
+    // bind at the constructor
   }
 
-  getMessage = () => {
+  getMessage(){
     console.log(this.state.message);
   }
   render() {
