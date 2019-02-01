@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Bind1 from './bind1';
+import Bind2 from './bind2';
+import Bind3 from './bind3';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Bind1 />
+        <Bind2 />
+        <Bind3 />
       </div>
     );
   }
